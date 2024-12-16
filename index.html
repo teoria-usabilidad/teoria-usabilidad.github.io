@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Teoría y Desarrollo de Aplicaciones Web</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <script type="module" src="script.js" defer async="false"></script>
+    <script type="module" src="listeners.js" defer async="false"></script>
+    <script type="module" src="firebaseDatabase.js" defer  async="false"></script>
+    <script type="module" src="firebaseAuth.js" defer async="false"></script>
+  </head>
+  <body>
+    <header>
+      <h1 class="animate__animated animate__bounce animate__lightSpeedInRight">
+        Teoría y Desarrollo de Aplicaciones Web
+      </h1>
+    </header>
+    <nav>
+      <a href="#introduccion">Introduccion</a>
+      <a href="#teoria">Teoria</a>
+      <a href="#categorias">Categorias</a>
+      <a href="#diseno-dinamismo">Diseño y Dinamismo</a>
+      <a href="#usabilidad-web">Usabilidad Web</a>
+      <a href="#dinamico">Contenido dinamico</a>
+    </nav>
+    <main>
+      <section id="introduccion">
+        <h2>Introducción al Desarrollo Web</h2>
+        <p>
+          El desarrollo de aplicaciones web se centra en la creación, diseño y
+          mantenimiento de sitios web y aplicaciones que se ejecutan en
+          navegadores. Estas aplicaciones pueden variar desde sitios
+          informativos simples hasta plataformas complejas como redes sociales,
+          sistemas de gestión empresarial y tiendas en línea. Implica combinar
+          múltiples disciplinas, incluyendo diseño gráfico, programación,
+          gestión de bases de datos, y optimización de rendimiento para asegurar
+          una experiencia de usuario eficiente. <br />
+          Además, el desarrollo web es una herramienta esencial para
+          organizaciones, empresas e individuos que desean interactuar y ofrecer
+          servicios en el mundo digital. Las aplicaciones web permiten a las
+          empresas aumentar su alcance, mejorar sus procesos internos y
+          proporcionar servicios personalizados a sus usuarios.
+        </p>
+      </section>
+      <section id="teoria">
+        <h2>Teoría y Desarrollo de Aplicaciones Web</h2>
+        <p>
+          El desarrollo de aplicaciones web abarca diversos aspectos esenciales
+          como HTML, CSS3, JavaScript y bases de datos como Firebase. A
+          continuación, se desglosan sus características clave:
+        </p>
+        <h3>1. HTML (HyperText Markup Language)</h3>
+        <p>
+          HTML es el núcleo de cualquier sitio web. Se utiliza para estructurar
+          el contenido y definir su propósito. Algunos elementos importantes
+          incluyen:
+        </p>
+        <ul>
+          <li>
+            <strong>Encabezados (h1 a h6):</strong> Representan títulos de
+            diferentes niveles, esenciales para la jerarquía del contenido.
+          </li>
+          <li>
+            <strong>Párrafos (p):</strong> Usados para texto descriptivo y
+            narrativo.
+          </li>
+          <li>
+            <strong>Imágenes (img):</strong> Añaden valor visual y refuerzan el
+            contenido.
+          </li>
+          <li>
+            <strong>Enlaces (a):</strong> Facilitan la navegación interna y
+            externa.
+          </li>
+          <li>
+            <strong>Tablas y Listas:</strong> Organizan datos estructurados y
+            mejoran la comprensión visual.
+          </li>
+        </ul>
+        <h3>2. CSS3 (Cascading Style Sheets)</h3>
+        <p>
+          CSS3 es el lenguaje que da vida al diseño de las páginas. Con él, se
+          puede modificar la apariencia de los elementos HTML mediante colores,
+          tipografías, márgenes y más. Sus características más avanzadas
+          incluyen:
+        </p>
+        <ul>
+          <li><strong>Gradientes:</strong> Para crear fondos fluidos.</li>
+          <li>
+            <strong>Media Queries:</strong> Permiten que las páginas se adapten
+            a diferentes tamaños de pantalla.
+          </li>
+          <li>
+            <strong>Transiciones y Animaciones:</strong> Hacen que los cambios
+            de estilo sean más atractivos.
+          </li>
+          <li>
+            <strong>Diseño de Layout:</strong> Flexbox y Grid ofrecen un control
+            avanzado de la disposición de elementos.
+          </li>
+        </ul>
+        <h3>3. JavaScript</h3>
+        <p>
+          JavaScript añade interactividad a las páginas web, transformándolas de
+          estáticas a dinámicas. Permite la manipulación del DOM en tiempo real
+          y facilita la creación de funcionalidades avanzadas como:
+        </p>
+        <ul>
+          <li><strong>Carruseles de imágenes.</strong></li>
+          <li>
+            <strong
+              >Formularios interactivos con validación instantánea.</strong
+            >
+          </li>
+          <li><strong>Juegos y simulaciones dentro del navegador.</strong></li>
+          <li>
+            <strong
+              >Conexión a APIs externas para cargar datos dinámicos.</strong
+            >
+          </li>
+        </ul>
+        <h3>4. Bases de Datos (Firebase)</h3>
+        <p>
+          Firebase es una plataforma de desarrollo en la nube que permite la
+          creación rápida de aplicaciones web escalables. Sus características
+          clave incluyen:
+        </p>
+        <ul>
+          <li>
+            <strong>Base de datos en tiempo real:</strong> Los datos se
+            sincronizan automáticamente entre clientes.
+          </li>
+          <li>
+            <strong>Autenticación:</strong> Soporte para múltiples métodos, como
+            correos electrónicos, Google, Facebook, entre otros.
+          </li>
+          <li>
+            <strong>Hosting:</strong> Para publicar fácilmente aplicaciones web.
+          </li>
+          <li>
+            <strong>Servicios adicionales:</strong> Análisis, notificaciones
+            push y pruebas A/B.
+          </li>
+        </ul>
+      </section>
+      <section id="categorias">
+        <h2>Categorías Clave en el Desarrollo Web</h2>
+        <p>
+          El desarrollo web incluye varias categorías clave que son esenciales
+          para garantizar la funcionalidad, la usabilidad y la experiencia
+          general del usuario. Estas categorías son:
+        </p>
+        <ul>
+          <li>
+            <strong>Interfaces de Usuario (UI):</strong> El diseño visual debe
+            ser claro y atractivo, guiando al usuario hacia los objetivos
+            principales de la aplicación. Ejemplo: botones llamativos,
+            iconografía comprensible y una navegación intuitiva.
+          </li>
+          <li>
+            <strong>Experiencia de Usuario (UX):</strong> Esto abarca cómo los
+            usuarios interactúan con la aplicación. Los principios incluyen
+            accesibilidad, velocidad de carga y una arquitectura de información
+            lógica.
+          </li>
+          <li>
+            <strong>Diseño Responsivo:</strong> Utilizando CSS3, las
+            aplicaciones se diseñan para ajustarse automáticamente a diferentes
+            tamaños de pantalla, desde móviles hasta pantallas grandes.
+          </li>
+          <li>
+            <strong>Optimización de Rendimiento:</strong> Minimizar scripts
+            innecesarios, optimizar imágenes y usar técnicas como carga diferida
+            para mejorar la velocidad.
+          </li>
+        </ul>
+      </section>
+      <section id="diseno-dinamismo">
+        <h2>Elementos de Diseño y Dinamismo</h2>
+        <p>
+          El diseño y el dinamismo son aspectos clave para garantizar una
+          experiencia de usuario efectiva y atractiva en una aplicación web.
+          Algunos elementos fundamentales incluyen:
+        </p>
+
+        <h3>Esquema de Navegación</h3>
+        <p>
+          Debe ser claro y sencillo, permitiendo a los usuarios acceder
+          rápidamente a cualquier sección. Se recomienda incluir:
+        </p>
+        <ul>
+          <li>
+            <strong>Menú principal:</strong> Visible en todas las páginas.
+          </li>
+          <li>
+            <strong>Enlaces contextuales:</strong> Facilitan explorar contenido
+            relacionado.
+          </li>
+          <li>
+            <strong>Migas de pan (breadcrumbs):</strong> Indican la ubicación
+            actual dentro del sitio.
+          </li>
+        </ul>
+
+        <h3>Distribución de Elementos</h3>
+        <p>Un diseño bien organizado mejora la experiencia del usuario:</p>
+        <ul>
+          <li>
+            <strong>Cabecera:</strong> Contiene el logotipo, el título del sitio
+            y el menú principal.
+          </li>
+          <li>
+            <strong>Cuerpo:</strong> Donde reside el contenido principal, como
+            textos, gráficos, y formularios.
+          </li>
+          <li>
+            <strong>Barra lateral:</strong> Espacio para menús secundarios o
+            widgets adicionales.
+          </li>
+          <li>
+            <strong>Pie de página:</strong> Incluye información de contacto,
+            políticas de privacidad y enlaces legales.
+          </li>
+        </ul>
+
+        <h3>Contenido Dinámico</h3>
+        <p>
+          El contenido que se actualiza automáticamente o se genera a partir de
+          interacciones con el usuario. Ejemplos incluyen:
+        </p>
+        <ul>
+          <li><strong>Gráficos interactivos y en tiempo real.</strong></li>
+          <li>
+            <strong>Listas desplegables con resultados filtrados.</strong>
+          </li>
+          <li><strong>Calendarios funcionales.</strong></li>
+        </ul>
+      </section>
+      <section id="usabilidad-web">
+        <h2>Fundamentos de la Usabilidad Web</h2>
+        <p>
+          La usabilidad web se refiere a la facilidad con la que los usuarios
+          pueden navegar e interactuar con una página web. Los principios
+          fundamentales incluyen:
+        </p>
+
+        <h3>Accesibilidad</h3>
+        <p>
+          Garantizar que la página sea funcional para personas con
+          discapacidades mediante el uso de etiquetas semánticas y texto
+          alternativo para imágenes.
+        </p>
+
+        <h3>Tensión Compositiva</h3>
+        <p>
+          Crear contraste utilizando colores, tamaños y posiciones. Esto guía la
+          atención del usuario hacia las áreas clave.
+        </p>
+
+        <h3>Equilibrio Visual</h3>
+        <p>
+          Mantener una distribución uniforme de elementos. Por ejemplo, no
+          sobrecargar un lado del diseño mientras se deja otro vacío.
+        </p>
+
+        <h3>Feedback Visual y Auditivo</h3>
+        <p>
+          Usar animaciones, sonidos o cambios de color para confirmar acciones
+          del usuario, como al enviar un formulario.
+        </p>
+      </section>
+      <section id="dinamico" class="dynamic-content">
+        <h2>Contenido Dinámico</h2>
+        <div id="login-form" class="login-container">
+          <h2>Inicio de sesión</h2>
+          <form action="#" method="post">
+            <input
+              type="text"
+              name="username"
+              placeholder="Nombre de usuario"
+              autocomplete="username"
+              required
+            />
+            <input
+              type="password"
+              name="password"
+              autocomplete="current-password"
+              placeholder="Contraseña"
+              required
+            />
+            <input type="submit" value="Iniciar Sesión" />
+          </form>
+        </div>
+        <div id="admin-content">
+          <h2>Panel de Administración</h2>
+          <p style="margin-bottom: 2rem">
+            Bienvenido al panel de administración. Aquí puede gestionar
+            contenido, usuarios, y otros recursos de su sitio web.
+          </p>
+          <!-- mostrar veces que se ha dado click a un boton -->
+          <p>
+            Has dado click al botón: <span class="click-counter">Cargando...</span> veces.
+          </p>
+          <!-- boton para incrementar contador -->
+          <button id="intercasecounter-button">Incrementar Contador</button>
+          <!-- cerrar sesion -->
+          <button class="logout-button">Cerrar Sesión</button>
+        </div>
+        <div id="user-content">
+          <h2>Panel de usuario</h2>
+          <p style="margin-bottom: 2rem">
+            Bienvenido al panel de usuario. Aquí puede ver el contenido de la web.
+          </p>
+          <!-- mostrar veces que se ha dado click a un boton -->
+          <p>
+            Veces que se le ha dado click al boton: <span class="click-counter">Cargando...</span> veces.
+          </p>
+          <!-- cerrar sesion -->
+          <button class="logout-button">Cerrar Sesión</button>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <p>&copy; 2024. Todos los derechos reservados.</p>
+    </footer>
+  </body>
+</html>

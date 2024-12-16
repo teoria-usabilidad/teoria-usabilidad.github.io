@@ -1,0 +1,140 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+header,
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+nav {
+  background-color: #444;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+  padding: 8px 15px;
+  background-color: #555;
+  border-radius: 5px;
+}
+nav a:hover {
+  background-color: #666;
+}
+main {
+  padding: 20px;
+  display: flex;
+  height: 100%;
+  overflow-y: auto;
+  flex-direction: column;
+}
+.dynamic-content {
+  margin: 20px 0;
+  padding: 10px;
+  border: 1px solid #ccc;
+  background-color: #f9f9f9;
+  display: flex;
+  flex-direction: column;
+}
+.hidden {
+  display: none;
+}
+
+.login-container {
+  background-color: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(10px);
+  border-radius: 10px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  padding: 20px 30px;
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+  align-self: center;
+}
+
+.login-container h1 {
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+}
+
+.login-container input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.login-container input[type="text"],
+.login-container input[type="password"] {
+  background-color: rgba(255, 255, 255, 0.25);
+  color: #000000;
+  border-color: #333;
+  border-width: 5px;
+}
+
+.login-container input::placeholder {
+  color: rgba(0, 0, 0, 0.7);
+}
+
+button,
+input[type="submit"] {
+  background-color: #5e9bc4;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  padding: 10px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+button:hover,
+input[type="submit"] {
+  background-color: #6e8efb;
+}
+
+.login-container p {
+  margin-top: 15px;
+  font-size: 0.9rem;
+}
+
+.login-container a {
+  color: #ffd700;
+  text-decoration: none;
+}
+
+.login-container a:hover {
+  text-decoration: underline;
+}
+
+
+#admin-content, 
+#user-content {
+  background-color: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(10px);
+  border-radius: 10px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  padding: 20px 30px;
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+  align-self: center;
+}
